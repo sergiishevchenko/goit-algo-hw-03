@@ -55,7 +55,7 @@ def main():
     parser = argparse.ArgumentParser()
 
     parser.add_argument('from_dir', type=str)
-    parser.add_argument('to_dir', type=str)
+    parser.add_argument('to_dir', type=str, default="dist")
 
     args = parser.parse_args()
 
